@@ -70,8 +70,19 @@ public class MainActivity extends AppCompatActivity {
 
         byte[] uid = intent.getByteArrayExtra(NfcAdapter.EXTRA_ID);     //  NFC-UID を取得
 
-        // 取得した uid を文字列に変換(makeText)
-        Toast.makeText(this, Arrays.toString(uid), Toast.LENGTH_SHORT).show();
+        // 表示
+        setUidText(Arrays.toString(uid));
+    }
+
+    /**
+     * uid をテキストとして表示
+     * @param uid
+     */
+    private void setUidText( String uid ) {
+        String msg = "uid :";
+
+        msg = msg.concat(uid);
+        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
 }
