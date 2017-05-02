@@ -1,0 +1,4 @@
+#Tue May 02 14:54:56 JST 2017
+base.0=/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
