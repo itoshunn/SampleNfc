@@ -46,11 +46,11 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
         android:scaleType="fitXY"
         android:visibility="visible"
-        app:srcCompat="@drawable/splash" />
+        app:srcCompat="@drawable/splash"
+        android:contentDescription="" />
 
 </FrameLayout>
