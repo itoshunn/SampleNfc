@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]

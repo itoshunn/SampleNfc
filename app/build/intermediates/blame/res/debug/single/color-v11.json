@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
