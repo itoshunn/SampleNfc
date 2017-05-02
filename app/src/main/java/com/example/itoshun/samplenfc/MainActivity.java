@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.nfc.NfcAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         // NFC Intent の作成
-        Intent intent  = new Intent(new, this.getClass());
+        Intent intent  = new Intent(this, this.getClass());
         intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
         // PendingIntent (待機状態の受け取り)
@@ -55,5 +58,20 @@ public class MainActivity extends AppCompatActivity {
         mNfcAdapter.disableForegroundDispatch(this);
     }
 
+
+    /**
+     * onNewIntent
+     * @param intent
+     * 読み込んだ結果を新しい Intent として取得
+     */
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+
+        byte[] uid = intent.getByteArrayExtra(NfcAdapter.EXTRA_ID);     //  NFC-UID を取得
+
+        // 取得した uid を文字列に変換(makeText)
+        Toast.makeText(this, Arrays.toString(uid), Toast.LENGTH_SHORT).show();
+    }
 
 }
