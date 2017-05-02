@@ -8,6 +8,10 @@
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/drawable/notification_bg.xml"
     },
     {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/base.jpg",
+        "source": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/src/main/res/drawable/base.jpg"
+    },
+    {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/drawable/abc_textfield_search_material.xml"
     },
@@ -84,6 +88,10 @@
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/main_view.jpg",
+        "source": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/src/main/res/drawable/main_view.jpg"
+    },
+    {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
@@ -94,6 +102,10 @@
     {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/splash.png",
+        "source": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/src/main/res/drawable/splash.png"
     },
     {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",

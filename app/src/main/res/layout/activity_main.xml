@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="com.example.itoshun.samplenfc.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="408dp"
+        android:layout_height="544dp"
+        app:srcCompat="@drawable/base"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="-33dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
