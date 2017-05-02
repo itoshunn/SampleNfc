@@ -43,4 +43,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * onPause
+     * ポーズ状態
+     */
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // ポーズ時の停止
+        mNfcAdapter.disableForegroundDispatch(this);
+    }
+
+
 }
