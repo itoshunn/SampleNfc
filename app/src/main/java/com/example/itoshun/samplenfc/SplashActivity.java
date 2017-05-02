@@ -91,11 +91,30 @@ public class SplashActivity extends AppCompatActivity {
     // NFC Adapter
     private NfcAdapter mNfcAdapter;
 
+    /**
+     * splashHandler
+     * スプラッシュ画面の切り替え
+     */
+    private class splashHandler implements Runnable {
+        public void run() {
+            Intent intent = new Intent(getApplication(), FullscreenActivity.class);
+            startActivity(intent);
+            SplashActivity.this.finish();
+        }
+    }
+
+    /**
+     * onCreate
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_splash);
+        // Handler
+        Handler handler = new Handler();
+        handler.postDelayed(new splashHandler(), 3000); // 3000ms の Delay
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
@@ -114,6 +133,10 @@ public class SplashActivity extends AppCompatActivity {
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this);
     }
 
+    /**
+     * onPostCreate
+     * @param savedInstanceState
+     */
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -164,7 +187,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
 
-
+        // TODO NFCの読み込み結果を表示
 
     }
 
