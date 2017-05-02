@@ -12,12 +12,12 @@
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/itoshun/.android/build-cache/43c2e072e86822fa5c79e46b3c8823e5e471bfa1/output/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",

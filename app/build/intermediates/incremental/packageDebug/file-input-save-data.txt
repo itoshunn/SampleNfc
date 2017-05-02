@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 02 17:31:26 JST 2017
+#Tue May 02 18:35:35 JST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/itoshun/Developer/AndroidStudioProjects/SampleNfc/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher_round.png

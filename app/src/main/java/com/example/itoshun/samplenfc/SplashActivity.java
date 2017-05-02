@@ -188,6 +188,8 @@ public class SplashActivity extends AppCompatActivity {
         super.onNewIntent(intent);
 
         // TODO NFCの読み込み結果を表示
+        // 読み込み結果をどうにかする。
+        // Fullscreen 画面で表示する。
 
     }
 
